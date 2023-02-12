@@ -23,4 +23,8 @@ function multiply(num1, num2, stillAdd) {
 }
 console.log(multiply(2,5, stillAdd));
 
-// Arrow functions
+// Arrow functions basics
+// Cannot used as object methods (no `this`)
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+let sum = (a, b) => a + b;
+console.log(sum(2,8));
